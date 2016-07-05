@@ -1,0 +1,19 @@
+<openerp>
+     <data>
+         <template id="index">
+             <t t-call="website.layout">
+                 <t t-set ="title">Pagination</t>
+                      <div class="oe_structure">
+                         <div class="container">
+                           <t t-foreach="products" t-as="product">
+                              <p>
+                                  <t t-esc="product.id"/>
+                                  <t t-esc="product.name"/>
+                              </p>
+                           </t>
+                         </div>
+                     </div>
+                  </t>
+         </template>
+     </data>
+ </openerp>
