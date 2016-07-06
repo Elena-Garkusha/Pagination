@@ -1,0 +1,4 @@
+Record:
+    record id: object
+    model: pagination.pagination
+    name: Object
